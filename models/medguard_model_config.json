@@ -1,0 +1,13 @@
+{
+    "model_type": "XGBoost",
+    "n_estimators": 300,
+    "max_depth": 5,
+    "learning_rate": 0.05,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "random_state": 42,
+    "eval_metric": "logloss",
+    "operating_threshold": 0.55,
+    "class_imbalance_strategy": "scale_pos_weight",
+    "feature_count": 103
+}
